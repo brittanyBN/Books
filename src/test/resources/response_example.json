@@ -1,0 +1,188 @@
+{
+  "key": "/subjects/scary",
+  "name": "scary",
+  "subject_type": "subject",
+  "work_count": 28,
+  "works": [
+    {
+      "key": "/works/OL72434W",
+      "title": "Goosebumps - Say Cheese and Die!",
+      "edition_count": 36,
+      "authors": [
+        {
+          "name": "R. L. Stine",
+          "key": "/authors/OL35524A"
+        },
+        {
+          "name": "Johnny Heller",
+          "key": "/authors/OL2946282A"
+        }
+      ],
+      "has_full_text": false,
+      "ia": "saycheesedie00stin"
+    },
+    {
+      "key": "/works/OL72352W",
+      "title": "Goosebumps - Welcome to Dead House",
+      "edition_count": 30,
+      "authors": [
+        {
+          "name": "R. L. Stine",
+          "key": "/authors/OL35524A"
+        }
+      ],
+      "has_full_text": false,
+      "ia": "welcometodeadhou0000stin"
+    },
+    {
+      "key": "/works/OL268379W",
+      "title": "Scary stories to tell in the dark",
+      "edition_count": 24,
+      "authors": [
+        {
+          "name": "Alvin Schwartz",
+          "key": "/authors/OL382182A"
+        }
+      ],
+      "has_full_text": false,
+      "ia": "scarystoriestote00alv_53h"
+    },
+    {
+      "key": "/works/OL18006920W",
+      "title": "Goosebumps HorrorLand - My Friends Call Me Monster",
+      "edition_count": 9,
+      "authors": [
+        {
+          "name": "R. L. Stine",
+          "key": "/authors/OL35524A"
+        }
+      ],
+      "has_full_text": false,
+      "ia": "myfriendscallmem00stin"
+    },
+    {
+      "key": "/works/OL610931W",
+      "title": "Wenn du dich gruseln willst",
+      "edition_count": 6,
+      "authors": [
+        {
+          "name": "Angela Sommer-Bodenburg",
+          "key": "/authors/OL47103A"
+        },
+        {
+          "name": "Angela Sommer-Bodernburg",
+          "key": "/authors/OL4221107A"
+        },
+        {
+          "name": "Angela Sommer-Bodenbur",
+          "key": "/authors/OL6806461A"
+        }
+      ],
+      "has_full_text": false,
+      "ia": "ifyouwanttoscare0000somm"
+    },
+    {
+      "key": "/works/OL72245W",
+      "title": "Goosebumps - Creepy Creatures",
+      "edition_count": 6,
+      "authors": [
+        {
+          "name": "R. L. Stine",
+          "key": "/authors/OL35524A"
+        },
+        {
+          "name": "Sheila Keenan",
+          "key": "/authors/OL228331A"
+        },
+        {
+          "name": "Scott Morse",
+          "key": "/authors/OL1421858A"
+        },
+        {
+          "name": "Greg Ruth",
+          "key": "/authors/OL3122910A"
+        }
+      ],
+      "has_full_text": false,
+      "ia": "goosebumpscreepy00stin"
+    },
+    {
+      "key": "/works/OL135552W",
+      "title": "The Simpsons Treehouse of Horror Fun-Filled Frightfest #3",
+      "edition_count": 4,
+      "authors": [
+        {
+          "name": "Matt Groening",
+          "key": "/authors/OL43672A"
+        }
+      ],
+      "has_full_text": false,
+      "ia": "simpsonstreehous0000unse_v1h0"
+    },
+    {
+      "key": "/works/OL4085697W",
+      "title": "Strangely Enough!",
+      "edition_count": 3,
+      "authors": [
+        {
+          "name": "Carroll Burleigh Colby (1904-1977)",
+          "key": "/authors/OL7761155A"
+        }
+      ],
+      "has_full_text": false,
+      "ia": "strangelyenough00cbco"
+    },
+    {
+      "key": "/works/OL4975043W",
+      "title": "The Muppets Go Camping",
+      "edition_count": 3,
+      "authors": [
+        {
+          "name": "Jocelyn Stevenson",
+          "key": "/authors/OL1074577A"
+        }
+      ],
+      "has_full_text": false,
+      "ia": "muppetsgocamping0000stev"
+    },
+    {
+      "key": "/works/OL6672831W",
+      "title": "Mystery at Deer Hill",
+      "edition_count": 2,
+      "authors": [
+        {
+          "name": "Virginia Frances Voight",
+          "key": "/authors/OL1803287A"
+        }
+      ],
+      "has_full_text": false,
+      "ia": null
+    },
+    {
+      "key": "/works/OL16101557W",
+      "title": "That Terrible Halloween Night",
+      "edition_count": 2,
+      "authors": [
+        {
+          "name": "James Stevenson 1929-2017",
+          "key": "/authors/OL7763617A"
+        }
+      ],
+      "has_full_text": false,
+      "ia": "thatterriblehall00stev"
+    },
+    {
+      "key": "/works/OL17635826W",
+      "title": "The Haunted Mansion Mystery",
+      "edition_count": 2,
+      "authors": [
+        {
+          "name": "Virginia Masterman-Smith",
+          "key": "/authors/OL1550975A"
+        }
+      ],
+      "has_full_text": false,
+      "ia": "hauntedmansionmy00scho"
+    }
+  ]
+}

@@ -22,7 +22,7 @@ import java.net.http.HttpResponse;
     private final HttpClient httpClient;
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
-    public BookResource() {
+    public BookResource(HttpClient httpClient) {
         this.httpClient = HttpClient.newHttpClient();
     }
 
