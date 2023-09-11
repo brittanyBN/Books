@@ -1,6 +1,7 @@
 package org.example.resource;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import jakarta.ws.rs.PathParam;
 import org.example.model.Subject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,21 +18,22 @@ import java.net.http.HttpResponse;
 
 @Path("/subjects")
 @Produces(MediaType.APPLICATION_JSON)public class BookResource {
-    private static final String OPEN_LIBRARY_URL = "http://openlibrary.org/subjects/scary.json";
+    private static final String OPEN_LIBRARY_URL = "http://openlibrary.org/subjects/";
     private static final Logger LOG = LoggerFactory.getLogger(BookResource.class);
     private final HttpClient httpClient;
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
-    public BookResource(HttpClient httpClient) {
+    public BookResource() {
         this.httpClient = HttpClient.newHttpClient();
     }
 
     @GET
+    @Path("/{subjectName}")
     @Produces(MediaType.APPLICATION_JSON)
-    public Subject getBooksBySubject() throws IOException, InterruptedException {
+    public Subject getBooksBySubject(@PathParam("subjectName") String subjectName) throws IOException, InterruptedException {
         try {
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create(OPEN_LIBRARY_URL))
+                    .uri(URI.create(OPEN_LIBRARY_URL + subjectName + ".json"))
                     .GET()
                     .build();
             HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());

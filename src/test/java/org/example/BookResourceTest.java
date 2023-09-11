@@ -1,6 +1,7 @@
 package org.example;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import jakarta.ws.rs.PathParam;
 import org.example.model.Subject;
 import org.example.resource.BookResource;
 import org.junit.Before;
@@ -44,10 +45,11 @@ public class BookResourceTest {
         String subjectString = objectMapper.writeValueAsString(mockResponse);
         when(response.body()).thenReturn(subjectString);
 
-        BookResource bookResource = new BookResource(httpClient);
+        BookResource bookResource = new BookResource();
 
         when(httpClient.send(any(), any())).thenReturn(response);
-        Subject booksBySubject = bookResource.getBooksBySubject();
+        String subjectName = "scary";
+        Subject booksBySubject = bookResource.getBooksBySubject(subjectName);
         Assertions.assertNotNull(booksBySubject);
     }
 }
