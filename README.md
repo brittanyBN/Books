@@ -1,5 +1,6 @@
 # Get book by subject
-This application has one endpoint ("/subjects") that fetches books from the Open Library Subjects API. 
+This application has one endpoint ("/subjects/{subjectName") that fetches books from the Open Library Subjects API. 
+Replace "subjectName" with the desired book subject.
 
 # Build
 ./gradlew build
