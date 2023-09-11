@@ -6,10 +6,7 @@ import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-
 import java.net.URI;
-
 
 public class Main {
     private static final Logger LOG = LoggerFactory.getLogger(Main.class);
@@ -19,6 +16,11 @@ public class Main {
         ResourceConfig config = new ResourceConfig();
         config.register(BookResource.class);
         HttpServer httpServer = GrizzlyHttpServerFactory.createHttpServer(BASE_URI, config);
-
+        try {
+            Thread.currentThread().join();
+        } catch (InterruptedException e) {
+            LOG.debug("Interrupted Exception");
+        }
+        httpServer.shutdownNow();
     }
 }
