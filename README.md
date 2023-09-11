@@ -13,4 +13,4 @@ Replace "subjectName" with the desired book subject.
 2. Test jar file:  java -jar build/libs/books-1.0-SNAPSHOT.jar
 3. Create Docker image: docker build -t getting-started .   
 4. Run Docker container: docker run -it --rm -p 8080:8080 getting-started:latest
-5. Test endpoint using command line tool: curl http://localhost:8080/subjects
+5. Test endpoint using command line tool: curl http://localhost:8080/subjects/scary
